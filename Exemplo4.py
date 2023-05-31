@@ -104,9 +104,7 @@ def consulta_peca():
         except ValueError:
             print("opção inválida")
 
-    # fim da função consultar peças
-
-
+    # inicio  função remove peças
 def remove_peca():
     while True:
         try:
@@ -125,7 +123,7 @@ def remove_peca():
         except ValueError: # tratamento de erro para caracteres inválidos
             print("Valor inválido digite apenas números")
             return  # retorna ao menu principal
-
+#fima da funão remeove peças
 
 def main():
     print("Bem vindo ao Controle de Estoque da  Bicicletaria de Marcos Paulo Alves de Souza\n"
